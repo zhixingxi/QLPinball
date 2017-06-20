@@ -74,7 +74,7 @@ extension ViewController {
             ball.layer.cornerRadius = width / 2
             ball.layer.masksToBounds = true
             let x = arc4random() % (UInt32)(self.view.bounds.size.width - width)
-            ball.frame = CGRect(x: CGFloat(x), y: 0, width: width, height: width)
+            ball.frame = CGRect(x: CGFloat(x), y: 200, width: width, height: width)
             // 添加球到视图和数组
             view.addSubview(ball)
             balls.append(ball)
