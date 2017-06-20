@@ -12,7 +12,7 @@ import CoreMotion
 class ViewController: UIViewController {
     /// 球数组
     fileprivate lazy var balls = [UIImageView]()
-    /// UIDynamicAnimator对象, 物理元素的容器
+    /// UIDynamicAnimator对象, 物理元素行为的容器
     fileprivate var animatorContainer: UIDynamicAnimator!
     /// 重力动作
     fileprivate var gravityBehavior: UIGravityBehavior!
